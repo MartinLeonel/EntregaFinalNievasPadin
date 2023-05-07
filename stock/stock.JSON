@@ -1,0 +1,123 @@
+{
+    "iphones":[
+        {
+            "id":1,
+            "model": "Iphone 12",
+            "gb": 256,
+            "priceUsd": 700,
+            "batery": 89,
+            "color": "azul",
+            "image": "stock/images/iphone12blue.jpg"
+        },
+
+        {
+            "id":2,
+            "model": "Iphone 13",
+            "gb": 256,
+            "priceUsd": 950,
+            "batery": 94,
+            "color": "negro",
+            "image": "stock/images/iphone13black.jpg"
+        },
+
+        {
+            "id":3,
+            "model": "Iphone 13 Pro",
+            "gb": 256,
+            "priceUsd": 1100,
+            "batery": 90,
+            "color": "gris",
+            "image": "stock/images/iphone13progris.jpg"
+        },
+
+        {
+            "id":4,
+            "model": "Iphone 12 mini",
+            "gb": 256,
+            "priceUsd": 650,
+            "batery": 85,
+            "color": "blanco",
+            "image": "stock/images/iphone12white.jpg"
+        },
+
+        {
+            "id":5,
+            "model": "Iphone 11",
+            "gb": 128,
+            "priceUsd": 500,
+            "batery": 89,
+            "color": "negro",
+            "image": "stock/images/iphone11black.jpg"
+        },
+
+        {
+            "id":6,
+            "model": "Iphone 12 Pro",
+            "gb": 256,
+            "priceUsd": 750,
+            "batery": 91,
+            "color": "azul",
+            "image": "stock/images/iphone12problue.jpg"
+        },
+
+        {
+            "id":7,
+            "model": "Iphone x",
+            "gb": 128,
+            "priceUsd": 400,
+            "batery": 85,
+            "color": "negro",
+            "image": "stock/images/iphonexblack.jpg"
+        },
+
+        {
+            "id":8,
+            "model": "Iphone 12",
+            "gb": 128,
+            "priceUsd": 800,
+            "batery": 98,
+            "color": "dorado",
+            "image": "stock/images/iphone12gold.jpg"
+        },
+
+        {
+            "id":9,
+            "model": "Iphone 14",
+            "gb": 256,
+            "priceUsd": 1300,
+            "batery": 98,
+            "color": "blanco",
+            "image": "stock/images/iphone14light.jpg"
+        },
+
+        {
+            "id":10,
+            "model": "Iphone 14 Pro",
+            "gb": 256,
+            "priceUsd": 1500,
+            "batery": 96,
+            "color": "violeta",
+            "image": "stock/images/iphone14proviolet.jpg"
+        },
+
+        {
+            "id":11,
+            "model": "Iphone 7",
+            "gb": 64,
+            "priceUsd": 300,
+            "batery": 85,
+            "color": "rosa",
+            "image": "stock/images/iphone7rosa.jpg"
+        },
+
+        {
+            "id":12,
+            "model": "Iphone 11",
+            "gb": 128,
+            "priceUsd": 600,
+            "batery": 94,
+            "color": "blanco",
+            "image": "stock/images/iphone11white.jpg"
+        }
+    ]
+}
