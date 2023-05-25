@@ -51,6 +51,7 @@ function addToCard(iphone) {
     } else {
         cart.push(iphone);
         updateCart();
+        localStorage.setItem('cart', JSON.stringify(cart));
         Swal.fire({
             icon: 'success',
             title: 'Producto Agregado',
@@ -123,6 +124,7 @@ cartButton.addEventListener('click', () => {
 function removeFromCart(index) {
     cart.splice(index, 1);
     updateCart();
+    localStorage.setItem('cart', JSON.stringify(cart));
 }
 
 
@@ -134,3 +136,14 @@ const purchaseButton = document.getElementById("purchase-button");
 if (purchaseButton) {
     purchaseButton.addEventListener("click", processPurchase);
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const savedCart = localStorage.getItem('cart');
+
+    if (savedCart) {
+        cart = JSON.parse(savedCart);
+        updateCart();
+    }
+});
+
+
